@@ -88,11 +88,8 @@ export default function Home(): React.ReactElement {
                 fontSize="xl"
                 mt={2}
               >
-                Welcome to my website! I use this to show some of my{' '}
-                <Link href="/projects" passHref>
-                  <ChakraLink>projects</ChakraLink>
-                </Link>{' '}
-                off, and test things out. You can see what music I am listening
+                Welcome to my website! I am using this as a way to practice some of my skills,
+                and test things out. You can see what music I am listening
                 to on the{' '}
                 <Link href="/music" passHref>
                   <ChakraLink>music page</ChakraLink>
@@ -101,15 +98,8 @@ export default function Home(): React.ReactElement {
                 <Link href="/links" passHref>
                   <ChakraLink>websites</ChakraLink>
                 </Link>{' '}
-                &{' '}
-                <Link href="/links" passHref>
-                  <ChakraLink>tools</ChakraLink>
-                </Link>{' '}
-                that I like. Sometimes I even write{' '}
-                <Link href="/blog" passHref>
-                  <ChakraLink>blogs</ChakraLink>
-                </Link>
-                . I am currently trying to earn a Information Technology degree in
+                that I like.
+                  I am currently trying to earn a Information Technology degree in
                  at the University of Mizzou; My goal is to either find a job with app development, or web development.
               </chakra.p>
             </Flex>
