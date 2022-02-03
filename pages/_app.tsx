@@ -36,15 +36,15 @@ export default function MyApp({ Component, pageProps }: AppProps): React.ReactEl
   return (
     <>
       <DefaultSeo
-        defaultTitle='Michael Hall'
-        titleTemplate='%s | Michael Hall'
+        defaultTitle='Levi Cheney'
+        titleTemplate='%s | Levi Cheney'
         openGraph={{
-          title: `Michael Hall`,
+          title: `Levi Cheney`,
           type: `website`,
-          site_name: `Michael Hall`,
+          site_name: `Levi Cheney`,
           images: [
             {
-              url: `https://www.michael-hall.me/static/images/profile.jpeg`,
+              url: `https://scontent-ort2-1.xx.fbcdn.net/v/t39.30808-6/273146104_4869167276511232_2859202710331493039_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=LWG2dtYvOXkAX8tYLGg&_nc_ht=scontent-ort2-1.xx&oh=00_AT9uMZikiEc2iXHVnt456gh5BEzSnY_72jpvTtEK5P9xGg&oe=61FFCA16`,
               alt: `Profile Picture`,
             },
           ],
