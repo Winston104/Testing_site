@@ -56,7 +56,7 @@ export default function Home(): React.ReactElement {
                 boxSize="250px"
                 src="https://scontent-ort2-1.xx.fbcdn.net/v/t39.30808-6/273146104_4869167276511232_2859202710331493039_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=LWG2dtYvOXkAX8tYLGg&_nc_ht=scontent-ort2-1.xx&oh=00_AT9uMZikiEc2iXHVnt456gh5BEzSnY_72jpvTtEK5P9xGg&oe=61FFCA16"
                 objectFit="cover"
-                alt="Michael Hall"
+                alt="Levi Cheney"
                 onLoad={() => setImageLoad(true)}
               />
             </Skeleton>
@@ -89,7 +89,7 @@ export default function Home(): React.ReactElement {
                 mt={2}
               >
                 Welcome to my website! I am using this as a way to practice some of my skills,
-                and test things out. You can see what music I am listening
+                and to test things out. You can see what music I am listening
                 to on the{' '}
                 <Link href="/music" passHref>
                   <ChakraLink>music page</ChakraLink>
@@ -100,7 +100,7 @@ export default function Home(): React.ReactElement {
                 </Link>{' '}
                 that I like.
                   I am currently trying to earn a Information Technology degree in
-                 at the University of Mizzou; My goal is to either find a job with app development, or web development.
+                 at the University of Mizzou; My goal is to either find a job working with app development, or web development.
               </chakra.p>
             </Flex>
           </Flex>
