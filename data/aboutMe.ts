@@ -10,31 +10,31 @@ const info = (props: any): { input: string; return: string }[] => [
   },
   {
     input: 'self.currentLocation',
-    return: '"Kent, UK"',
+    return: '"Columbia, US"',
   },
 
   {
     input: 'self.interests',
-    return: '["web dev", "biology", "tennis"]',
+    return: '["web dev", "Virtual Reality", "NBA"]',
   },
   {
     input: 'self.education',
-    return: '"B.Sc Biochemistry - University of Kent"',
+    return: '"Information Technology - University of Missouri - Columbia"',
   },
   {
     input: 'self.skills',
     return:
-      '[ "JavaScript", "Python", "React", "Next.JS", "Chakra-UI", "Tailwind", "SASS", "git"]',
+      '[ "C#", "HTML", "PHP", "C", "git"]',
   },
   {
     input: 'self.contactMe()',
     return: `["<a style="${style(
       props
-    )}" rel="noopener" href="https://www.linkedin.com/in/michael-hall-86616b17b/">LinkedIn</a>", "<a style="${style(
+    )}" rel="noopener" href="https://https://www.linkedin.com/in/levi-cheney-b6b4411aa/">LinkedIn</a>", "<a style="${style(
       props
-    )}" rel="noopener" href="https://github.com/mah51">Github</a>", "<a rel="noopener" style="${style(
+    )}" rel="noopener" href="https://github.com/Winston104">Github</a>", "<a rel="noopener" style="${style(
       props
-    )}" href="https://www.instagram.com/accounts/login/">Instagram</a>"]`,
+    )}" href="https://www.facebook.com/levi.cheney/">Facebook</a>"]`,
   },
 ];
 
