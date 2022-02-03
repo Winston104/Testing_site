@@ -54,7 +54,7 @@ export default function Home(): React.ReactElement {
                 flexGrow={3}
                 borderRadius="2xl"
                 boxSize="250px"
-                src="./static/images/profile.jpeg"
+                src="https://scontent-ort2-1.xx.fbcdn.net/v/t39.30808-6/273146104_4869167276511232_2859202710331493039_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=LWG2dtYvOXkAX8tYLGg&_nc_ht=scontent-ort2-1.xx&oh=00_AT9uMZikiEc2iXHVnt456gh5BEzSnY_72jpvTtEK5P9xGg&oe=61FFCA16"
                 objectFit="cover"
                 alt="Michael Hall"
                 onLoad={() => setImageLoad(true)}
@@ -80,7 +80,7 @@ export default function Home(): React.ReactElement {
                 fontSize={{ base: `5xl`, lg: `7xl` }}
                 textAlign={{ base: `center`, lg: `left` }}
               >
-                Hi, I&apos;m Michael!
+                Hello, I&apos;m Levi!
               </Heading>
               <chakra.p
                 maxW="650px"
@@ -109,9 +109,8 @@ export default function Home(): React.ReactElement {
                 <Link href="/blog" passHref>
                   <ChakraLink>blogs</ChakraLink>
                 </Link>
-                . I am currently undertaking a research masters degree in
-                Computational Biology at the University of Kent; attempting to
-                predict protein function from sequence using deep learning.
+                . I am currently trying to earn a Information Technology degree in
+                 at the University of Mizzou; My goal is to either find a job with app development, or web development.
               </chakra.p>
             </Flex>
           </Flex>
